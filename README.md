@@ -6,3 +6,11 @@ The new game Pillars of Eternity by Obsidian includes "memorial" messages on in-
 (See https://twitter.com/icequeenerika/status/582161950202863616/photo/1)
 
 This patch was generated with Xdelta 1.1. Xdelta is in a state of hosting flux at the moment due to the shutdown of Google Code, but versions up through 3.0f can still be found at http://sourceforge.net/projects/xdelta/.
+
+Some GUI frontends are available for Xdelta. From the command line, after installing Xdelta, open a command prompt window and change to your Pillars of Eternity data folder (if you have the Steam version, this will be Steam/steamapps/common/Pillars of Eternity/PillarsOfEternity_Data). Copy the .xdelta patch to this location, and rename resources.assets to resources.assets.bak. Then enter the command
+`xdelta patch resources.assets.bak resources.assets.xdelta resources.assets`
+
+If Xdelta succeeds, the transmisogynist joke will be gone from your copy of the game. If you have the Steam version, you can delete resources.assets.bak. If you have the GoG version you may want to keep it; in case of problems, delete the patched resources.assets file and rename resources.assets.bak back to resources.assets and everything will be back to normal.
+
+**NOTES**
+* the patched resources.assets file has a different checksum, so it *will* fail Steam verification. This means that if you click "Verify Integrity of Game Cache" under the "Local Files" tab of the game properties window, the patch will be undone. There should be no other effect on the game, however.
