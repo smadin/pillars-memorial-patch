@@ -21,3 +21,4 @@ If Xdelta succeeds, the transmisogynist joke will be gone from your copy of the 
 
 **NOTES**
 * the patched resources.assets file has a different checksum, so it *will* fail Steam verification. This means that if you click "Verify Integrity of Game Cache" under the "Local Files" tab of the game properties window, the patch will be undone. There should be no other effect on the game, however.
+* this mod is a rushed, hacky solution; I think it'll work in many cases, but I'd like to be clear that I think Obsidian should not have allowed that joke through in the first place, should officially apologize for having done so, and should issue an official patch obviating mine as soon as possible.
