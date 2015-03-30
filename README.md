@@ -1,6 +1,12 @@
 # pillars-memorial-patch
 Small Xdelta patch to remove a transmisogynist message in Pillars of Eternity
 
+**Disclaimer**
+# I do not and never have worked at Obsidian, or on Pillars of Eternity, nor am I affiliated with the studio in any way. I'm not a game developer and I do not work in the games industry.
+# This mod is provided as-is without express or implied warranty.
+# I only have my Steam copy of the English version of Pillars of Eternity, and I do not know whether it will work with any other version of the game.
+# This mod (consisting of the .xdelta patch file) is in the public domain.
+
 The new game Pillars of Eternity by Obsidian includes "memorial" messages on in-game graves, as a Kickstarter backer reward. Unfortunately, Obsidian didn't vet the user-submitted messages well enough, and a transmisogynist "joke" ended up in the game. This is a small Xdelta patch to remove it.
 
 (See https://twitter.com/icequeenerika/status/582161950202863616/photo/1)
